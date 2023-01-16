@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Add Shoes - Hand-Made Leather Shoes Classifieds</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Hand-Made Leather Shoes Classifieds</h1>
+  </header>
+  <nav>
+    <a href="index.html">Home</a>
+  </nav>
+  <main>
+    <h2>Add Shoes</h2>
+    <form id="add-shoes-form" enctype="multipart/form-data">
+      <label for="price">Price:</label>
+      <input type="number" id="price" name="price" min="0" required>
+      <br>
+      <label for="description">Description:</label>
+      <textarea id="description" name="description" required></textarea>
+      <br>
+      <label for="pictures">Pictures:</label>
+      <input type="file" id="pictures" name="pictures" multiple required>
+      <br>
+      <label for="phone">Phone Number:</label>
+      <input type="tel" id="phone" name="phone" required>
+      <br>
+      <input type="submit" value="Add Shoes">
+    </form>
+  </main>
+  <footer>
+    <p>Copyright 2022</p>
+  </footer>
+</body>
+</html>
